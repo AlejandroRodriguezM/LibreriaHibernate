@@ -1,0 +1,27 @@
+#nombreComic1 {
+	-fx-border-color: transparent;
+	-fx-border-radius: 0;
+	-fx-background-color: grey;
+	-fx-text-fill: white;
+	-fx-pref-height: 20px;
+	-fx-padding: 4;
+	-fx-background-insets: 0;
+}
+
+#nombreComic1 .text-field {
+	-fx-prompt-text-fill: white;
+}
+
+#nombreComic1 .combo-popup .text-field {
+	-fx-prompt-text-fill: -mfx-text-me;
+}
+
+#nombreComic1 .caret .mfx-font-icon {
+    -mfx-color: #FF794B;
+    -mfx-description: "fas-angle-down";
+    -mfx-size: 12;
+}
+
+#nombreComic1 .caret .mfx-ripple-generator {
+	-mfx-ripple-color: rgba(255, 255, 255, 0.5);
+}
